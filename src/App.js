@@ -12,8 +12,8 @@ const App = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/login" component={LoginForm} />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/records" component={Record} />
+      <ProtectedRoute exact path="/" component={Home} />
+      <ProtectedRoute exact path="/records" component={Record} />
 
       <Route path="/not-found" component={NotFound} />
       <Redirect to="not-found" />
