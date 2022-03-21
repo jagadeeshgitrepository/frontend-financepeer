@@ -38,6 +38,7 @@ In this project, let's build an **Events** app by applying the concepts we have 
 <details>
 <summary>Login Api</summary>
  - Method : POST
+ 
  <summary>Login Credentials</summary>
  - username : jagadeesh
  - password : jagadeesh@2022
