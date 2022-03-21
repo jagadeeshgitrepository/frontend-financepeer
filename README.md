@@ -16,12 +16,11 @@ In this project, let's build an **Events** app by applying the concepts we have 
 - [Large (Size >= 727px) and Extra Large (Size >= 1200px) -Login (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647866144/financepeer/Screenshot_1709_e1jpwl.png)
 - [small (Size <=726px) and Extra Large (Size >= 1200px) -Login (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647865975/financepeer/Screenshot_1708_cldjwp.png)
 
-
-- [Large (Size >=727px) and Extra Large (Size >= 1200px) -Home  (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647865500/financepeer/Screenshot_1708_wrotd7.png)
+- [Large (Size >=727px) and Extra Large (Size >= 1200px) -Home (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647865500/financepeer/Screenshot_1708_wrotd7.png)
 - [small (Size <= 726px) and Extra Large (Size >= 1200px) -Home (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647866401/financepeer/Screenshot_1710_olgcxk.png)
 
-- [Large (Size >=727px) and Extra Large (Size >= 1200px) -Records  (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647866712/financepeer/Screenshot_1713_akibrc.png)
-- [small (Size <= 726px) and Extra Large (Size >= 1200px) Records  (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647866815/financepeer/Screenshot_1715_exiuu8.png)
+- [Large (Size >=727px) and Extra Large (Size >= 1200px) -Records (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647866712/financepeer/Screenshot_1713_akibrc.png)
+- [small (Size <= 726px) and Extra Large (Size >= 1200px) Records (https://res.cloudinary.com/dmpepn8dm/image/upload/v1647866815/financepeer/Screenshot_1715_exiuu8.png)
 
 </details>
 
@@ -34,22 +33,20 @@ In this project, let's build an **Events** app by applying the concepts we have 
 - Start up the app using `npm start`
 </details>
 
-
-
 ### API
 
 <details>
 <summary>Login Api</summary>
  - Method : POST
+ - username : jagadeesh
+ - password : jagadeesh@2022
 
 <br/>
 
 - Request API https://financepeer-demo-records.herokuapp.com/login/**
 - Response for Valid Credentials is=> {jwtToken:"token"}
-- Invalid Credentials Response is =>  {error_msg:"Invalid Message"}
-    
+- Invalid Credentials Response is => {error_msg:"Invalid Message"}
 
-    
 <summary>Insert Records API</summary>
  - Method : POST
 
@@ -57,7 +54,6 @@ In this project, let's build an **Events** app by applying the concepts we have 
 
 - Request API https://financepeer-demo-records.herokuapp.com/book/**
 - Response for Valid Data is=> { bookId: last inserted record number }
-
 
 <summary>Get Data Records</summary>
  - Method : GET
